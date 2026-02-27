@@ -27,8 +27,7 @@ public final class BattleEngine {
     }
 
     public EncounterResult runEncounter(List<Combatant> teamA, List<Combatant> teamB) {
-        // TODO: validate inputs and run round-based battle
-        // TODO: use random if you add critical hits or target selection
+    
         EncounterResult result = new EncounterResult();
         result.setWinner("TBD");
         result.setRounds(0);
